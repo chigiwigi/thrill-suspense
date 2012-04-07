@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmpostQuickEditlns='http://www.w3.org/1999/xhtml'>
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:fb='http://www.facebook.com/2008/fbml' xmpostQuickEditlns='http://www.w3.org/1999/xhtml'>
   <head>
+	<meta content='DESCRIPTION HERE' name='description'/>
+	<meta content='KEYWORDS HERE' name='keywords'/>
+	<meta content='404844392878376' property='fb:app_id'/>
     <b:include data='blog' name='all-head-content'/>
-
-<b:if cond='data:blog.url == data:blog.homepageUrl'>
-<meta content='DESCRIPTION HERE' name='description'/>
-<meta content='KEYWORDS HERE' name='keywords'/>
+	<b:if cond='data:blog.url == data:blog.homepageUrl'>
 </b:if>
 
 <!-- Start www.bloggertipandtrick.net: Changing the Blogger Title Tag  -->
@@ -1444,6 +1444,12 @@ div.span-1,div.span-2,div.span-3,div.span-4,div.span-5,div.span-6,div.span-7,div
 <input name='IL_RELATED_TAGS' type='hidden' value='1'/>
 <div class='g-plus' data-href='https://plus.google.com/114296567351618278933' data-size='badge' target='_blank'>
 </div>
+
+<!--facebook comments area starts-->
+<script src='http://connect.facebook.net/en_US/all.js#xfbml=1'/>
+<div><fb:comments expr:href='data:post.url' expr:title='data:post.title' expr:xid='data:post.id' width='580'/></div>
+<!--facebook comments area ends-->
+
 </b:if>
 
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'><data:post.body/>
@@ -1973,11 +1979,12 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </div>
 </b:loop>
 
-<!--facebook like button for comments starts-->
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-<iframe allowTransparency='true' expr:src='&quot;https://www.facebook.com/plugins/like.php?href=&quot; + data:post.url + &quot;&amp;send=false&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21&quot;' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:90px; height:21px;'/>
-</b:if>
+
 <!--facebook like button for comments starts-->
+<iframe allowTransparency='true' expr:src='&quot;https://www.facebook.com/plugins/like.php?href=&quot; + data:post.url + &quot;&amp;send=false&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21&quot;' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:90px; height:21px;'/>
+<!--facebook like button for comments starts-->
+</b:if>
 
 </div>
 
@@ -2103,7 +2110,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </div>
     			    	
 <div class='social-connect-widget' style='margin-bottom:10px;'>
-<a href='http://www.youtube.com/chigiwiggi' target='_blank'><img alt='YouTube Channel!' src='http://www.cityofmelissa.com/news/images/youtube_icon.png' title='YouTube Channel!' width='35' /></a><a href='http://www.youtube.com/chigiwiggi/' target='_blank'>YouTube Channel</a>
+<a href='http://www.youtube.com/chigiwiggi' target='_blank'><img alt='YouTube Channel!' src='http://www.cityofmelissa.com/news/images/youtube_icon.png' title='YouTube Channel!' width='35'/></a><a href='http://www.youtube.com/chigiwiggi/' target='_blank'>YouTube Channel</a>
 </div>
     			    	
 <div class='social-connect-widget' style='margin-bottom:10px;'>
