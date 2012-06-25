@@ -825,8 +825,8 @@
     <div class='span-16'>
     <div class='menu-primary-wrap'>
     <b:section class='pagelistmenusblog' id='pagelistmenusblog' showaddelement='no'>
-    <b:widget id='PageList14' locked='true' title='Pages' type='PageList'>
-    <b:includable id='main'>
+<b:widget id='PageList14' locked='true' title='Pages' type='PageList'>
+<b:includable id='main'>
     <div class='widget-content'>
     <ul class='menus menu-primary'>
     <b:loop values='data:links' var='link'>
@@ -840,9 +840,9 @@
     <b:include name='quickedit'/>
     </div>
     </b:includable>
-    </b:widget>
-    <b:widget id='LinkList15' locked='true' title='Edit This Menu' type='LinkList'>
-    <b:includable id='main'>
+</b:widget>
+<b:widget id='LinkList15' locked='true' title='Edit This Menu' type='LinkList'>
+<b:includable id='main'>
     <div class='widget-content'>
     <ul class='menus menu-primary'>
     <b:loop values='data:links' var='link'>
@@ -852,8 +852,8 @@
     <b:include name='quickedit'/>
     </div>
     </b:includable>
-    </b:widget>
-    </b:section>
+</b:widget>
+</b:section>
     </div>
     </div>
     </div>
@@ -862,16 +862,16 @@
     
     <div id='header-wrapper'>
     <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-    <b:widget id='Header1' locked='true' title='Indian Blog of Thriller and Suspense TV Series (Header)' type='Header'>
-    <b:includable id='title'>
+<b:widget id='Header1' locked='true' title='Indian Blog of Thriller and Suspense TV Series (Header)' type='Header'>
+<b:includable id='title'>
     <a expr:href='data:blog.homepageUrl'><data:title/></a>
     </b:includable>
-    <b:includable id='description'>
+<b:includable id='description'>
     <div class='descriptionwrapper'>
     <p class='description'><span><data:description/></span></p>
     </div>
     </b:includable>
-    <b:includable id='main'>
+<b:includable id='main'>
     
     <b:if cond='data:useImage'>
     <b:if cond='data:imagePlacement == &quot;REPLACE&quot;'>
@@ -915,8 +915,8 @@
 </b:section>
 
 <b:section class='header' id='header2' maxwidgets='1' showaddelement='yes'>
-    <b:widget id='HTML1' locked='false' title='Subscribe to SMS Channel' type='HTML'>
-        <b:includable id='main'>
+<b:widget id='HTML1' locked='false' title='Subscribe to SMS Channel' type='HTML'>
+<b:includable id='main'>
             <!-- only display title if it's non-empty -->
             <b:if cond='data:title != &quot;&quot;'>
                 <h2 class='title'><data:title/></h2>
@@ -927,9 +927,9 @@
             
             <b:include name='quickedit'/>
         </b:includable>
-    </b:widget>
-    <b:widget id='HTML46' locked='false' title='' type='HTML'>
-        <b:includable id='main'>
+</b:widget>
+<b:widget id='HTML46' locked='false' title='' type='HTML'>
+<b:includable id='main'>
             <!-- only display title if it's non-empty -->
             <b:if cond='data:title != &quot;&quot;'>
                 <h2 class='title'><data:title/></h2>
@@ -940,7 +940,7 @@
             
             <b:include name='quickedit'/>
         </b:includable>
-    </b:widget>
+</b:widget>
 </b:section>
 <div style='clear:both;'/>
 
@@ -1021,16 +1021,16 @@
                 
                 <div id='crosscol-wrapper' style='text-align:center'>
                 <b:section class='crosscol' id='crosscol' showaddelement='yes'>
-                <b:widget id='AdSense3' locked='false' title='' type='AdSense'>
-                <b:includable id='main'>
+<b:widget id='AdSense3' locked='false' title='' type='AdSense'>
+<b:includable id='main'>
                 <div class='widget-content'>
                 <data:adCode/>
                 <b:include name='quickedit'/>
                 </div>
                 </b:includable>
-                </b:widget>
-                <b:widget id='NewsBar1' locked='false' title='Current' type='NewsBar'>
-                <b:includable id='main'>
+</b:widget>
+<b:widget id='NewsBar1' locked='false' title='Current' type='NewsBar'>
+<b:includable id='main'>
                 <!-- only display title if it's non-empty -->
                 <b:if cond='data:title != &quot;&quot;'>
                     <h2 class='title'><data:title/></h2>
@@ -1044,8 +1044,8 @@
                 
                 <b:include name='quickedit'/>
             </b:includable>
-            </b:widget>
-        </b:section>
+</b:widget>
+</b:section>
     </div>
     
     <div id='main-wrapper'>
@@ -1133,8 +1133,8 @@
                             <!-- Featured Content Slider End -->
                             
                             <b:section class='main' id='main' showaddelement='no'>
-                            <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
-                            <b:includable id='nextprev'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+<b:includable id='nextprev'>
                             <div class='blog-pager' id='blog-pager'>
                             <b:if cond='data:newerPageUrl'>
                             <span id='blog-pager-newer-link'>
@@ -1159,7 +1159,7 @@
                             </div>
                             <div class='clear'/>
                             </b:includable>
-                            <b:includable id='shareButtons' var='post'>
+<b:includable id='shareButtons' var='post'>
                             <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'>
                             <span class='share-button-link-text'><data:top.emailThisMsg/></span>
                             </a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'>
@@ -1175,7 +1175,7 @@
                             </a></b:if><b:if cond='data:top.showDummy'><div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
                             </b:if>
                             </b:includable>
-                            <b:includable id='backlinks' var='post'>
+<b:includable id='backlinks' var='post'>
                             <a name='links'/><h4><data:post.backlinksLabel/></h4>
                             <b:if cond='data:post.numBacklinks != 0'>
                             <dl class='comments-block' id='comments-block'>
@@ -1201,7 +1201,7 @@
                             <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
                             </p>
                             </b:includable>
-                            <b:includable id='threaded_comment_js' var='post'>
+<b:includable id='threaded_comment_js' var='post'>
                             <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
                             
                             <script type='text/javascript'>
@@ -1386,7 +1386,7 @@
                             // ]]>
                         </script>
                     </b:includable>
-                    <b:includable id='mobile-main' var='top'>
+<b:includable id='mobile-main' var='top'>
                         <!-- posts -->
                         <div class='blog-posts hfeed'>
                             
@@ -1405,7 +1405,7 @@
                         
                         <b:include name='mobile-nextprev'/>
                     </b:includable>
-                    <b:includable id='post' var='post'>
+<b:includable id='post' var='post'>
                         <div class='wrapfullpost'>
                             <div class='post hentry'>
                                 <a expr:name='data:post.id'/>
@@ -1464,18 +1464,6 @@
                                             <input name='IL_RELATED_TAGS' type='hidden' value='1'/>
                                             <div class='g-plus' data-href='https://plus.google.com/114296567351618278933' data-size='badge' target='_blank'>
                                                 </div>
-                                                
-                                                <!--facebook comments area starts-->
-                                                <script>(function(d){
-                                                var js, id = &#39;facebook-jssdk&#39;; if (d.getElementById(id)) {return;}
-                                                js = d.createElement(&#39;script&#39;); js.id = id; js.async = true;
-                                                js.src = &quot;//connect.facebook.net/en_US/all.js#xfbml=1&quot;;
-                                                d.getElementsByTagName(&#39;head&#39;)[0].appendChild(js);
-                                                }(document));</script>
-                                                <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'/>
-                                                <div><fb:comments expr:href='data:post.url' expr:title='data:post.title' expr:xid='data:post.id' width='580'/></div>
-                                                <!--facebook comments area ends-->
-                                                
                                                 </b:if>
                                                 
                                                 <b:if cond='data:blog.pageType == &quot;static_page&quot;'><data:post.body/>
@@ -1553,7 +1541,7 @@
                                                 </b:if>
                                                 
                                                 </b:includable>
-                                                <b:includable id='status-message'>
+<b:includable id='status-message'>
                                                 <b:if cond='data:navMessage'>
                                                 <div class='status-msg-wrap'>
                                                 <div class='status-msg-body'>
@@ -1568,7 +1556,7 @@
                                                 <div style='clear: both;'/>
                                                 </b:if>
                                                 </b:includable>
-                                                <b:includable id='comment-form' var='post'>
+<b:includable id='comment-form' var='post'>
                                                 <div id='comment-form'>
                                                 <a name='comment-form'/>
                                                 <h4 id='comment-post-message'><data:postCommentMsg/></h4>
@@ -1583,7 +1571,7 @@
                                                 </script>
                                                 </div>
                                                 </b:includable>
-                                                <b:includable id='threaded_comments' var='post'>
+<b:includable id='threaded_comments' var='post'>
                                                 <div class='comments' id='comments'>
                                                 <a name='comments'/>
                                                 <h4>
@@ -1627,14 +1615,14 @@
                                                 </div>
                                                 </div>
                                                 </b:includable>
-                                                <b:includable id='backlinkDeleteIcon' var='backlink'>
+<b:includable id='backlinkDeleteIcon' var='backlink'>
                                                 <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
                                                 <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
                                                 <img src='http://www.blogger.com/img/icon_delete13.gif'/>
                                                 </a>
                                                 </span>
                                                 </b:includable>
-                                                <b:includable id='mobile-nextprev'>
+<b:includable id='mobile-nextprev'>
                                                 <div class='blog-pager' id='blog-pager'>
                                                 <b:if cond='data:newerPageUrl'>
                                                 <div class='mobile-link-button' id='blog-pager-newer-link'>
@@ -1659,7 +1647,7 @@
                                                 </div>
                                                 <div class='clear'/>
                                                 </b:includable>
-                                                <b:includable id='mobile-post' var='post'>
+<b:includable id='mobile-post' var='post'>
                                                 <div class='date-outer'>
                                                 <b:if cond='data:post.dateHeader'>
                                                 <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
@@ -1749,7 +1737,7 @@
                                                 </div>
                                                 </div>
                                                 </b:includable>
-                                                <b:includable id='postQuickEdit' var='post'>
+<b:includable id='postQuickEdit' var='post'>
                                                 <b:if cond='data:post.editUrl'>
                                                 <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
                                                 <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
@@ -1758,7 +1746,7 @@
                                                 </span>
                                                 </b:if>
                                                 </b:includable>
-                                                <b:includable id='main' var='top'>
+<b:includable id='main' var='top'>
                                                 <!-- posts -->
                                                 <div class='blog-posts hfeed'>
                                                 
@@ -1835,14 +1823,14 @@
                                                     </b:if>
                                                     
                                                     </b:includable>
-                                                    <b:includable id='commentDeleteIcon' var='comment'>
+<b:includable id='commentDeleteIcon' var='comment'>
                                                     <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
                                                     <a expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
                                                         <img src='http://www.blogger.com/img/icon_delete13.gif'/>
                                                             </a>
                                                             </span>
                                                             </b:includable>
-                                                            <b:includable id='feedLinks'>
+<b:includable id='feedLinks'>
                                                             <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
                                                             <b:if cond='data:feedLinks'>
                                                             <div class='blog-feeds'>
@@ -1862,7 +1850,7 @@
                                                             </div>
                                                             </b:if>
                                                             </b:includable>
-                                                            <b:includable id='threaded-comment-form' var='post'>
+<b:includable id='threaded-comment-form' var='post'>
                                                             <div class='comment-form'>
                                                             <a name='comment-form'/>
                                                             <b:if cond='data:mobile'>
@@ -1883,7 +1871,7 @@
                                                             </script>
                                                             </div>
                                                             </b:includable>
-                                                            <b:includable id='mobile-index-post' var='post'>
+<b:includable id='mobile-index-post' var='post'>
                                                             <b:if cond='data:post.dateHeader'>
                                                             <div class='mobile-index-date'>
                                                             <div class='date-header'>
@@ -1933,7 +1921,7 @@
                                                             </div>
                                                             </div>
                                                             </b:includable>
-                                                            <b:includable id='feedLinksBody' var='links'>
+<b:includable id='feedLinksBody' var='links'>
                                                             <div class='feed-links'>
                                                             <data:feedLinksMsg/>
                                                             <b:loop values='data:links' var='f'>
@@ -1941,7 +1929,7 @@
                                                             </b:loop>
                                                             </div>
                                                             </b:includable>
-                                                            <b:includable id='comments' var='post'>
+<b:includable id='comments' var='post'>
                                                             <div class='comments' id='comments'>
                                                             <a name='comments'/>
                                                             <b:if cond='data:post.allowComments'>
@@ -2065,9 +2053,9 @@
                                                             </div>
                                                             </div>
                                                             </b:includable>
-                                                            </b:widget>
-                                                            <b:widget id='Label1' locked='false' title='Tags' type='Label'>
-                                                            <b:includable id='main'>
+</b:widget>
+<b:widget id='Label1' locked='false' title='Tags' type='Label'>
+<b:includable id='main'>
                                                             <b:if cond='data:title'>
                                                             <h2><data:title/></h2>
                                                             </b:if>
@@ -2104,9 +2092,9 @@
                                                             <b:include name='quickedit'/>
                                                             </div>
                                                             </b:includable>
-                                                            </b:widget>
-                                                            <b:widget id='Gadget1' locked='false' title='Recent Comments' type='Gadget'>
-                                                            <b:includable id='main'>  
+</b:widget>
+<b:widget id='Gadget1' locked='false' title='Recent Comments' type='Gadget'>
+<b:includable id='main'>  
                                                             <!-- only display title if it's non-empty -->
                                                             <b:if cond='data:renderingUrl != &quot;&quot;'>
                                                                 <b:if cond='data:title != &quot;&quot;'>
@@ -2127,8 +2115,31 @@
                                                             
                                                             <b:include name='quickedit'/>
                                                         </b:includable>
-                                                    </b:widget>
-                                                </b:section>
+</b:widget>
+<b:widget id='PlusOne1' locked='false' title='+1 Button' type='PlusOne'>
+<b:includable id='main'>
+
+  <div class='widget-content'>
+    <g:plusone expr:annotation='data:annotation' expr:href='data:blog.canonicalHomepageUrl' expr:size='data:size' source='blogger' width='250'/>
+
+    <script type='text/javascript'>
+      window.___gcfg = {&quot;lang&quot;: &quot;<data:language/>&quot;};
+
+      (function() {
+        var po = document.createElement(&#39;script&#39;); po.type = &#39;text/javascript&#39;;
+        po.async = true; po.src = &#39;https://apis.google.com/js/plusone.js&#39;;
+        var s = document.getElementsByTagName(&#39;script&#39;)[0];
+        s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </div>
+
+</b:includable>
+</b:widget>
+<b:widget id='HTML3' locked='false' title='You might also like:' type='HTML'>
+<b:includable id='main'><data:content/></b:includable>
+</b:widget>
+</b:section>
                                                 </div>
                                                     <div id='rsidebar-wrapper'>
                                                         
@@ -2204,8 +2215,8 @@
                                                                 
                                                                 <div class='tabs-widget-content tabs-widget-content-widget-themater_tabs-1432447472-id' id='widget-themater_tabs-1432447472-id1'>
                                                                 <b:section class='sidebar' id='sidebartab1' preferred='yes'>
-                                                                <b:widget id='PageList1' locked='false' title='Sections' type='PageList'>
-                                                                <b:includable id='main'>
+<b:widget id='PageList1' locked='false' title='Sections' type='PageList'>
+<b:includable id='main'>
                                                                 <b:if cond='data:title'><h2><data:title/></h2></b:if>
                                                                 <div class='widget-content'>
                                                                 <b:if cond='data:mobile'>
@@ -2234,17 +2245,17 @@
                                                                 <b:include name='quickedit'/>
                                                                 </div>
                                                                 </b:includable>
-                                                                </b:widget>
-                                                                <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
-                                                                <b:includable id='main'>
+</b:widget>
+<b:widget id='AdSense1' locked='false' title='' type='AdSense'>
+<b:includable id='main'>
                                                                 <div class='widget-content'>
                                                                 <data:adCode/>
                                                                 <b:include name='quickedit'/>
                                                                 </div>
                                                                 </b:includable>
-                                                                </b:widget>
-                                                                <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
-                                                                <b:includable id='main'>
+</b:widget>
+<b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+<b:includable id='main'>
                                                                 <b:if cond='data:title'><h2><data:title/></h2></b:if>
                                                                 <div class='widget-content popular-posts'>
                                                                 <ul>
@@ -2295,104 +2306,104 @@
                                                                 <b:include name='quickedit'/>
                                                                 </div>
                                                                 </b:includable>
-                                                                </b:widget>
-                                                                <b:widget id='Attribution1' locked='true' title='' type='Attribution'>
-                                                                <b:includable id='main'>
-                                                                <b:if cond='data:feedbackSurveyLink'>
-                                                                <div class='mobile-survey-link' style='text-align: center;'>
-                                                                <data:feedbackSurveyLink/>
-                                                                </div>
-                                                                </b:if>
-                                                                
-                                                                <div class='widget-content' style='text-align: center;'>
-                                                                <b:if cond='data:attribution != &quot;&quot;'>
-                                                                <data:attribution/>
-                                                                </b:if>
-                                                                </div>
-                                                                
-                                                                <b:include name='quickedit'/>
-                                                                </b:includable>
-                                                                </b:widget>
-                                                                <b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
-                                                                <b:includable id='main'>
-                                                                <b:if cond='data:title != &quot;&quot;'>
-                                                                <b:if cond='data:codeSnippet != &quot;&quot;'>
-                                                                <h2 class='title'><data:title/></h2>
-                                                                <b:else/>
-                                                                <b:if cond='data:totalFollowerCount != &quot;&quot;'>
-                                                                <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
-                                                                </b:if>
-                                                                </b:if>  
-                                                                </b:if>
-                                                                <div class='widget-content'>
-                                                                <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
-                                                                <b:if cond='data:codeSnippet != &quot;&quot;'>
-                                                                <div style='margin-right:2px;'>
-                                                                <data:codeSnippet/>
-                                                                </div>
-                                                                <b:else/>
-                                                                <b:if cond='data:totalFollowerCount == &quot;&quot;'>
-                                                                <span class='item-control following-not-admin'>
-                                                                <b><data:failureSnippet/></b>
-                                                                </span>
-                                                                <span class='item-control blog-admin'>
-                                                                <b><data:adminFailureSnippet/></b>
-                                                                </span>
-                                                                <b:else/>
-                                                                <b:if cond='data:followingLinkPresent'>
-                                                                <div class='follow-this profile-link item-control following-follow-this'>
-                                                                <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                                                                <data:followThisMessage/>
-                                                                </a>
-                                                                </div>
-                                                                <div class='follow-this profile-link item-control following-stop-following-this'>
-                                                                <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                                                                <data:stopFollowingMessage/>
-                                                                </a>
-                                                                </div>
-                                                                </b:if>
-                                                                
-                                                                <div class='followers-grid'>
-                                                                <b:if cond='data:totalFollowerCount == 0'>
-                                                                <div class='profile-link item-control following-follow-this'>
-                                                                <data:emptyFollowersMessage/>
-                                                                </div>
-                                                                </b:if>
-                                                                <!--
-                                                                Relies on the js written out in navbar.gxp
-                                                                -->
-                                                                <b:loop values='data:followers' var='follower'>
-                                                                <div class='follower'>
-                                                                <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
-                                                                <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='&quot;this.onerror=null;this.src=\&quot;&quot; + data:anonFollowerImageUrl + &quot;\&quot;;&quot;' expr:onload='&quot;setAttributeOnload(this, \&quot;src\&quot;, \&quot;&quot; + data:follower.imageUrl + &quot;\&quot;)&quot;' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
-                                                                </a>
-                                                                </div>
-                                                                </b:loop>
-                                                                <div class='clear'/>
-                                                                </div>
-                                                                
-                                                                <div class='followers-canvas profile-link'>
-                                                                <data:followersFooterMessage/>
-                                                                <span class='item-control following-not-admin'>
-                                                                <a expr:href='data:followersUri'>
-                                                                <data:viewAllMessage/>
-                                                                </a>
-                                                                </span>
-                                                                <span class='item-control blog-admin'>
-                                                                <a expr:href='data:manageFollowersUri'>
-                                                                <data:manageFollowersMessage/>
-                                                                </a>
-                                                                </span>
-                                                                </div>
-                                                                </b:if>
-                                                                </b:if>
-                                                                </div>
-                                                                <b:include name='quickedit'/>
-                                                                </div>
-                                                                </b:includable>
-                                                                </b:widget>
-                                                                <b:widget id='Slideshow1' locked='false' title='Slideshow' type='Slideshow'>
-                                                                <b:includable id='main'>
+</b:widget>
+<b:widget id='Attribution1' locked='true' title='' type='Attribution'>
+<b:includable id='main'>
+    <b:if cond='data:feedbackSurveyLink'>
+      <div class='mobile-survey-link' style='text-align: center;'>
+        <data:feedbackSurveyLink/>
+      </div>
+    </b:if>
+
+    <div class='widget-content' style='text-align: center;'>
+      <b:if cond='data:attribution != &quot;&quot;'>
+       <data:attribution/>
+      </b:if>
+    </div>
+
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+<b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
+<b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <b:if cond='data:codeSnippet != &quot;&quot;'>
+      <h2 class='title'><data:title/></h2>
+    <b:else/>
+      <b:if cond='data:totalFollowerCount != &quot;&quot;'>
+        <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
+      </b:if>
+    </b:if>  
+  </b:if>
+  <div class='widget-content'>
+    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
+      <b:if cond='data:codeSnippet != &quot;&quot;'>
+        <div style='margin-right:2px;'>
+          <data:codeSnippet/>
+        </div>
+      <b:else/>
+        <b:if cond='data:totalFollowerCount == &quot;&quot;'>
+          <span class='item-control following-not-admin'>
+            <b><data:failureSnippet/></b>
+          </span>
+          <span class='item-control blog-admin'>
+            <b><data:adminFailureSnippet/></b>
+          </span>
+        <b:else/>
+          <b:if cond='data:followingLinkPresent'>
+            <div class='follow-this profile-link item-control following-follow-this'>
+              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
+                <data:followThisMessage/>
+              </a>
+            </div>
+            <div class='follow-this profile-link item-control following-stop-following-this'>
+              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
+                <data:stopFollowingMessage/>
+              </a>
+            </div>
+          </b:if>
+  
+          <div class='followers-grid'>
+            <b:if cond='data:totalFollowerCount == 0'>
+              <div class='profile-link item-control following-follow-this'>
+                <data:emptyFollowersMessage/>
+              </div>
+            </b:if>
+            <!--
+            Relies on the js written out in navbar.gxp
+            -->
+            <b:loop values='data:followers' var='follower'>
+              <div class='follower'>
+                <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
+                <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='&quot;this.onerror=null;this.src=\&quot;&quot; + data:anonFollowerImageUrl + &quot;\&quot;;&quot;' expr:onload='&quot;setAttributeOnload(this, \&quot;src\&quot;, \&quot;&quot; + data:follower.imageUrl + &quot;\&quot;)&quot;' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
+                </a>
+              </div>
+            </b:loop>
+            <div class='clear'/>
+          </div>
+  
+          <div class='followers-canvas profile-link'>
+            <data:followersFooterMessage/>
+            <span class='item-control following-not-admin'>
+              <a expr:href='data:followersUri'>
+                <data:viewAllMessage/>
+              </a>
+            </span>
+            <span class='item-control blog-admin'>
+              <a expr:href='data:manageFollowersUri'>
+                <data:manageFollowersMessage/>
+              </a>
+            </span>
+          </div>
+          </b:if>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+</b:widget>
+<b:widget id='Slideshow1' locked='false' title='Slideshow' type='Slideshow'>
+<b:includable id='main'>
                                                                 <!-- only display title if it's non-empty -->
                                                                 <b:if cond='data:title != &quot;&quot;'>
                                                                     <h2 class='title'><data:title/></h2>
@@ -2406,9 +2417,9 @@
                                                                 
                                                                 <b:include name='quickedit'/>
                                                             </b:includable>
-                                                        </b:widget>
-                                                        <b:widget id='Feed2' locked='false' title='Blogger Templates' type='Feed'>
-                                                            <b:includable id='main'>
+</b:widget>
+<b:widget id='Feed2' locked='false' title='Blogger Templates' type='Feed'>
+<b:includable id='main'>
                                                                 <h2><data:title/></h2>
                                                                 <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
                                                                     <span style='filter: alpha(25); opacity: 0.25;'>
@@ -2417,9 +2428,9 @@
                                                                 </div>
                                                                 <b:include name='quickedit'/>
                                                             </b:includable>
-                                                        </b:widget>
-                                                        <b:widget id='FollowByEmail1' locked='false' title='Follow by Email' type='FollowByEmail'>
-                                                            <b:includable id='main'>
+</b:widget>
+<b:widget id='FollowByEmail1' locked='false' title='Follow by Email' type='FollowByEmail'>
+<b:includable id='main'>
                                                                 <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
                                                                 <div class='widget-content'>
                                                                     <div class='follow-by-email-inner'>
@@ -2443,9 +2454,9 @@
                                                                             <b:include name='quickedit'/>
                                                                             </span>
                                                                             </b:includable>
-                                                                            </b:widget>
-                                                                            <b:widget id='HTML2' locked='false' title='Feed Count' type='HTML'>
-                                                                            <b:includable id='main'>
+</b:widget>
+<b:widget id='HTML2' locked='false' title='Feed Count' type='HTML'>
+<b:includable id='main'>
                                                                             <!-- only display title if it's non-empty -->
                                                                             <b:if cond='data:title != &quot;&quot;'>
                                                                                 <h2 class='title'><data:title/></h2>
@@ -2456,14 +2467,30 @@
                                                                             
                                                                             <b:include name='quickedit'/>
                                                                         </b:includable>
-                                                                    </b:widget>
-                                                                </b:section>                                       
+</b:widget>
+<b:widget id='HTML4' locked='false' title='Who is visiting:' type='HTML'>
+<b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+</b:widget>
+<b:widget id='HTML5' locked='false' title='Spacial Thanks to:' type='HTML'>
+<b:includable id='main'><data:content/></b:includable>
+</b:widget>
+</b:section>                                       
                                                             </div>							
                                                             
                                                             <div class='tabs-widget-content tabs-widget-content-widget-themater_tabs-1432447472-id' id='widget-themater_tabs-1432447472-id2'>
                                                                 <b:section class='sidebar' id='sidebartab2' preferred='yes'>
-                                                                    <b:widget id='Label3' locked='false' title='Labels' type='Label'>
-                                                                        <b:includable id='main'>
+<b:widget id='Label3' locked='false' title='Labels' type='Label'>
+<b:includable id='main'>
                                                                             <b:if cond='data:title'>
                                                                                 <h2><data:title/></h2>
                                                                             </b:if>
@@ -2500,8 +2527,8 @@
                                                                                 <b:include name='quickedit'/>
                                                                             </div>
                                                                         </b:includable>
-                                                                    </b:widget>
-                                                                </b:section>                                         
+</b:widget>
+</b:section>                                         
                                                             </div>							
                                                             
                                                             <div class='tabs-widget-content tabs-widget-content-widget-themater_tabs-1432447472-id' id='widget-themater_tabs-1432447472-id3'>
